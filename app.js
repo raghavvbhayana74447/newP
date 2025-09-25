@@ -4,10 +4,10 @@ const port = 3000;
 
 // Prod environment message
 app.get('/', (req, res) => {
-  res.send('<h1>Hello from PROD Environment íº€</h1>');
+  res.send('<h1>Hello from DEV Environment ï¿½ï¿½ï¿½</h1>');
 });
 
 app.listen(port, () => {
-  console.log(`Prod app running at http://localhost:${port}`);
+  console.log(`Dev app running at http://localhost:${port}`);
 });
 
