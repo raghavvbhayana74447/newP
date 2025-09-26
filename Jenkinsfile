@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         RESOURCE_GROUP = "RnD-RaghavRG"
-        APP_NAME       = "devapp"
+        APP_NAME       = "webapp74447"
         PLAN_NAME      = "ASP-RnDRaghavRG-b5a6"
         LOCATION       = "eastus"
     }
@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Fetching Git') {
             steps {
-                git url: 'https://github.com/raghavvbhayana74447/multienv.git', branch: 'qa'
+                git url: 'https://github.com/raghavvbhayana74447/multienv.git', branch: 'dev'
             }
         }
 
