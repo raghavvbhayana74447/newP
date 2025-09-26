@@ -18,6 +18,8 @@ pipeline {
         stage('Installing Dependencies') {
             steps {
                 sh '''
+                    sudo apt-get update
+                    sudo apt-get install -y nodejs npm
                     npm install
                 '''
             }
