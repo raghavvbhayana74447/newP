@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         RESOURCE_GROUP = "RnD-RaghavRG"
-        APP_NAME       = "webapp74447"
+        APP_NAME       = "devapp"
         PLAN_NAME      = "ASP-RnDRaghavRG-b5a6"
         LOCATION       = "eastus"
     }
