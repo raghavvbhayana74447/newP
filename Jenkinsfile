@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         RESOURCE_GROUP = "RnD-RaghavRG"
-        APP_NAME       = "mywebapp74447"
+        APP_NAME       = "webapp74447"
         PLAN_NAME      = "ASP-RnDRaghavRG-b5a6"
         LOCATION       = "eastus"
     }
@@ -18,6 +18,8 @@ pipeline {
         stage('Installing Dependencies') {
             steps {
                 sh '''
+                    sudo apt-get update
+                    sudo apt-get install -y nodejs npm
                     npm install
                 '''
             }
