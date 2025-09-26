@@ -9,11 +9,11 @@ pipeline {
     }
 
     stages {
-        stage('Fetching Git') {
-            steps {
-                git url: 'https://github.com/raghavvbhayana74447/multienv.git', branch: 'qa'
-            }
-        }
+        // stage('Fetching Git') {
+        //     steps {
+        //         git url: 'https://github.com/raghavvbhayana74447/multienv.git', branch: 'qa'
+        //     }
+        // }
 
         stage('Installing Dependencies') {
             steps {
