@@ -2,7 +2,7 @@ pipeline{
     agent { label 'cloud-agent'}
 
     environmemts{
-        APP_NAME= "mywebapp74447"
+        APP_NAME= "devapp"
         RESOURCE_GROUP = "RnD-RaghavRG"
         APP_NAME       = "mywebapp74447"
         PLAN_NAME      = "ASP-RnDRaghavRG-b5a6"   
